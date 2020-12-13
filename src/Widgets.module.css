@@ -1,0 +1,16 @@
+.widgetBody {
+    margin: .5rem;
+    background-color: rgba(1, 1, 73, 0.404);
+    height: 63vh;
+    border-radius: .3rem;
+    overflow-y: scroll;
+}
+
+.noScrollBody {
+    margin: .5rem;
+    background-color: rgba(1, 1, 73, 0.404);
+    height: 63vh;
+    border-radius: .3rem;
+    object-fit: cover;
+    overflow: hidden;
+}
